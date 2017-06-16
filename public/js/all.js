@@ -52293,6 +52293,12 @@ angular.module('ngResource', ['ng']).
             // when we click the "Add Name" button
             vm.logNewName = function() {
 
+                //Basic form validation
+                if(!vm.user_name) {
+                    alert("You must enter a name");
+                    return;
+                  }
+
                 name.saveName({
                     "names":vm.user_name
                 }).then(function(success) {
