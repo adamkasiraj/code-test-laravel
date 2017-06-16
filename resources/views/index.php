@@ -8,7 +8,7 @@
 
 <body ng-app="nameTracker" ng-controller="NameEntry as vm">
     <nav class="navbar navbar-default">
-        <div class="container name-entry">
+        <div class="container name-entry" style="padding:20px">
 
             <div class="name-entry-comment">                
                 <form class="form-inline text-center">
@@ -39,16 +39,11 @@
 
 </body>    
 
-    <!-- Application Dependencies -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://use.fontawesome.com/70f92f9159.js"></script>
-    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
-    <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-    <script type="text/javascript" src="bower_components/angular-resource/angular-resource.js"></script>
+    <!-- Consolidated JS -->
+    <script src="js/all.js"></script>
 
-    <!-- Application Scripts -->
-    <script type="text/javascript" src="scripts/app.js"></script>
-    <script type="text/javascript" src="scripts/controllers/NameEntry.js"></script>
-    <script type="text/javascript" src="scripts/services/name.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/70f92f9159.js"></script>
+    
 
 </html>
